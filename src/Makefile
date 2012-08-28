@@ -1,5 +1,5 @@
-CC	= icc
-CFLAGS	+=-O -Wall -D LINUX -g -no-vec 
+CC	= g++
+CFLAGS	+=-O2 -Wall -D LINUX -g -no-vec 
 BIN_DIR = ../bin
 INC_DIR	= ../include
 LIB_DIR	= ../lib
