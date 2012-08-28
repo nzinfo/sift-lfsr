@@ -410,11 +410,11 @@ static void estimate_block(struct region &reg,
     cout << ex_rg.left << " "
          << ex_rg.top  << " "
          << ex_rg.right  << " "
-         << ex_rg.bottom  << " ";
+         << ex_rg.bottom  << " " << endl;
 
     estimates.push_back(ex_rg);
 
-    cout << "\nrg" << estimates.size() << ": " << ex_rg.features.size() << endl;
+    cout << "rg" << estimates.size() << ": " << ex_rg.features.size() << endl;
 
     int max_region_iponts = -1;
     for (int i = 0; i < estimates.size(); i++) {
@@ -663,10 +663,11 @@ static void estimate(int w, int h, std::vector<struct feature> &features,
 
     }
 
-    cout << ex_rg.left << " "
+    cout << "region: "
+         << ex_rg.left << " "
          << ex_rg.top  << " "
          << ex_rg.right  << " "
-         << ex_rg.bottom  << " ";
+         << ex_rg.bottom  << " " << endl;
 
     estimates.push_back(ex_rg);
 
@@ -687,6 +688,7 @@ CvSeq* lfsr(IplImage *img, CvSeq *seq, CvMemStorage *storage) {
     std::vector<struct region> estimates;
     std::vector<struct region> regions;
     feat = (struct feature *)cvCvtSeqToArray( seq, feat, CV_WHOLE_SEQ );
+    cout << "origin: " << size << endl;
     for (int i = 0; i < size; i++) {
         features.push_back(feat[i]);
     }
@@ -701,12 +703,16 @@ CvSeq* lfsr(IplImage *img, CvSeq *seq, CvMemStorage *storage) {
         }
     }
 
+    size = 0;
     CvSeq* result = cvCreateSeq(0,sizeof(CvSeq),sizeof(struct feature),storage);
     for (int n = 0; n < estimates.size(); n++) {
         for (int i = 0; i < estimates[n].features.size(); i++) {
             cvSeqPush(result, &(estimates[n].features[i]));
+            size++;
         }
     }
+
+    cout << "left: " << size << endl;
 
     return result;
 }

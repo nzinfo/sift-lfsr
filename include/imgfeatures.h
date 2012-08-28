@@ -1,6 +1,5 @@
 /**@file
    Functions and structures for dealing with image features.
-   
    Copyright (C) 2006-2010  Rob Hess <hess@eecs.oregonstate.edu>
 
    @version 1.1.2-20100521
@@ -96,6 +95,8 @@ extern int import_features( char* filename, int type, struct feature** feat );
    @return Returns 0 on success or 1 on error
 */
 extern int export_features( char* filename, struct feature* feat, int n, float x1, float y1, float x2, float y2 );
+
+extern int export_all_features( char* filename, struct feature* feat, int n);
 
 
 /**
