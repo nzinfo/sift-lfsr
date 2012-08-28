@@ -6,11 +6,12 @@
 #include <cxcore.h>
 #include <cv.h>
 #include <stdlib.h>
+#include <iostream>
 
 using namespace std;
 
 #define PI 3.1415926536
-#define threshold 0.6f
+#define threshold 0.5f
 
 //-------------------------------------------------------------------
 // Predefines
@@ -711,8 +712,6 @@ CvSeq* lfsr(IplImage *img, CvSeq *seq, CvMemStorage *storage) {
             size++;
         }
     }
-
-    cout << "left: " << size << endl;
 
     return result;
 }

@@ -139,11 +139,12 @@ int _sift_features( IplImage* img, struct feature** feat, int intvls,
     features = scale_space_extrema( dog_pyr, octvs, intvls, contr_thr,
             curv_thr, storage );
     calc_feature_scales( features, sigma, intvls );
+    
+    if( img_dbl )
+        adjust_for_img_dbl( features );
 
     features = lfsr(img, features, storage);
 
-    if( img_dbl )
-        adjust_for_img_dbl( features );
     calc_feature_oris( features, gauss_pyr );
     compute_descriptors( features, gauss_pyr, descr_width, descr_hist_bins );
 
