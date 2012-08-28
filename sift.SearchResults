@@ -1,0 +1,349 @@
+---- double Matches (372 in 23 files) ----
+Doxygen.css (docs\html):	border: 1px double #9295C2;
+Globals.html (docs\html):<li>array_double()
+Globals_func.html (docs\html):<li>array_double()
+Imgfeatures.c (src):double descr_dist_sq( struct feature* f1, struct feature* f2 )
+Imgfeatures.c (src):  double diff, dsq = 0;
+Imgfeatures.c (src):  double* descr1, * descr2;
+Imgfeatures.c (src):  double x, y, a, b, c, dv;
+Imgfeatures.c (src):  double m[4] = { feat->a, feat->b, feat->b, feat->c };
+Imgfeatures.c (src):  double v[4] = { 0 };
+Imgfeatures.c (src):  double e[2] = { 0 };
+Imgfeatures.c (src):  double alpha, l1, l2;
+Imgfeatures.c (src):  double x, y, s, o, dv;
+Imgfeatures.c (src):  double scl, ori;
+Imgfeatures.c (src):  double scale = 5.0;
+Imgfeatures.c (src):  double hscale = 0.75;
+Imgfeatures.h (include):  double x;                      /**< x coord */
+Imgfeatures.h (include):  double y;                      /**< y coord */
+Imgfeatures.h (include):  double a;                      /**< Oxford-type affine region parameter */
+Imgfeatures.h (include):  double b;                      /**< Oxford-type affine region parameter */
+Imgfeatures.h (include):  double c;                      /**< Oxford-type affine region parameter */
+Imgfeatures.h (include):  double scl;                    /**< scale of a Lowe-style feature */
+Imgfeatures.h (include):  double ori;                    /**< orientation of a Lowe-style feature */
+Imgfeatures.h (include):  double descr[FEATURE_MAX_D];   /**< descriptor */
+Imgfeatures.h (include):extern double descr_dist_sq( struct feature* f1, struct feature* f2 );
+Imgfeatures_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="imgfeatures_8h.html#d2d260809861abae26c9e6a371b63fb2">descr_dist_sq</a> (struct <a class="el" href="structfeature.html">feature</a> *f1, struct <a class="el" href="structfeature.html">feature</a> *f2)</td></tr>
+Imgfeatures_8h.html (docs\html):          <td class="memname">double descr_dist_sq           </td>
+Kdtree.c (src):  double d;
+Kdtree.c (src):static double median_select( double*, int );
+Kdtree.c (src):static double rank_select( double*, int, int );
+Kdtree.c (src):static void insertion_sort( double*, int );
+Kdtree.c (src):static int partition_array( double*, int, double );
+Kdtree.c (src):  double kv, x, mean, var, var_max = 0;
+Kdtree.c (src):  double* tmp;
+Kdtree.c (src):  tmp = calloc( n, sizeof( double ) );
+Kdtree.c (src):static double median_select( double* array, int n )
+Kdtree.c (src):static double rank_select( double* array, int n, int r )
+Kdtree.c (src):  double* tmp, med;
+Kdtree.c (src):  tmp = calloc( gr_tot, sizeof( double ) );
+Kdtree.c (src):static void insertion_sort( double* array, int n )
+Kdtree.c (src):  double k;
+Kdtree.c (src):static int partition_array( double* array, int n, double pivot )
+Kdtree.c (src):  double tmp;
+Kdtree.c (src):  double kv;
+Kdtree.c (src):  double kv;
+Kdtree.c (src):  double dn, df;
+Kdtree.h (include):  double kv;                   /**< partition key value */
+Match.c (src):  double d0, d1;
+Minpq.c (src):  /* double array allocation if necessary */
+Minpq.c (src):      min_pq->nallocd = array_double( (void**)&min_pq->pq_array,
+Report.txt (src):imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):utils.c(301): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):utils.c(301): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):sift.c(133): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):sift.c(1071): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):sift.c(1192): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):kdtree.c(559): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Report.txt (src):  CV_INLINE  int  cvFloor( double value )
+Report.txt (src):  CV_INLINE  int  cvCeil( double value )
+Report.txt (src):  CV_INLINE int cvIsNaN( double value )
+Report.txt (src):  CV_INLINE int cvIsInf( double value )
+Report.txt (src):  CV_INLINE double cvRandReal( CvRNG* rng )
+Report.txt (src):  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+Report.txt (src):  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+Report.txt (src):  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+Report.txt (src):  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+Report.txt (src):  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+Report.txt (src):  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+Report.txt (src):  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+Report.txt (src):  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+Report.txt (src):  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+Report.txt (src):  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+Sift.c (src):static IplImage* create_init_img( IplImage*, int, double );
+Sift.c (src):static IplImage*** build_gauss_pyr( IplImage*, int, int, double );
+Sift.c (src):static CvSeq* scale_space_extrema( IplImage***, int, int, double, int,
+Sift.c (src):					double);
+Sift.c (src):static void interp_step( IplImage***, int, int, int, int, double*, double*,
+Sift.c (src):			 double* );
+Sift.c (src):static double interp_contr( IplImage***, int, int, int, int, double, double,
+Sift.c (src):			    double );
+Sift.c (src):static void calc_feature_scales( CvSeq*, double, int );
+Sift.c (src):static double* ori_hist( IplImage*, int, int, int, int, double );
+Sift.c (src):static int calc_grad_mag_ori( IplImage*, int, int, double*, double* );
+Sift.c (src):static void smooth_ori_hist( double*, int );
+Sift.c (src):static double dominant_ori( double*, int );
+Sift.c (src):static void add_good_ori_features( CvSeq*, double*, int, double,
+Sift.c (src):static double*** descr_hist( IplImage*, int, int, double, double, int, int );
+Sift.c (src):static void interp_hist_entry( double***, double, double, double, double, int,
+Sift.c (src):static void hist_to_descr( double***, int, int, struct feature* );
+Sift.c (src):static void release_descr_hist( double****, int );
+Sift.c (src):		    double sigma, double contr_thr, int curv_thr,
+Sift.c (src):  optionally doubled in size prior to smoothing.
+Sift.c (src):  @param img_dbl if true, image is doubled in size prior to smoothing
+Sift.c (src):static IplImage* create_init_img( IplImage* img, int img_dbl, double sigma )
+Sift.c (src):  double sig_diff;
+Sift.c (src):			     int intvls, double sigma )
+Sift.c (src):  double sig[_intvls+3], sig_total, sig_prev, k;
+Sift.c (src):				   double contr_thr, int curv_thr,
+Sift.c (src):  double prelim_contr_thr = 0.5 * contr_thr / intvls;
+Sift.c (src):  double val = pixval32f( dog_pyr[octv][intvl], r, c );
+Sift.c (src):					double contr_thr )
+Sift.c (src):  double xi, xr, xc, contr;
+Sift.c (src):			 double* xi, double* xr, double* xc )
+Sift.c (src):  double x[3] = { 0 };
+Sift.c (src):  double dx, dy, ds;
+Sift.c (src):  double v, dxx, dyy, dss, dxy, dxs, dys;
+Sift.c (src):static double interp_contr( IplImage*** dog_pyr, int octv, int intvl, int r,
+Sift.c (src):			    int c, double xi, double xr, double xc )
+Sift.c (src):  double t[1], x[3] = { xc, xr, xi };
+Sift.c (src):  double d, dxx, dyy, dxy, tr, det;
+Sift.c (src):static void calc_feature_scales( CvSeq* features, double sigma, int intvls )
+Sift.c (src):  double intvl;
+Sift.c (src):  Halves feature coordinates and scale in case the input image was doubled
+Sift.c (src):  double* hist;
+Sift.c (src):  double omax;
+Sift.c (src):static double* ori_hist( IplImage* img, int r, int c, int n, int rad,
+Sift.c (src):			 double sigma )
+Sift.c (src):  double* hist;
+Sift.c (src):  double mag, ori, w, exp_denom, PI2 = CV_PI * 2.0;
+Sift.c (src):  hist = calloc( n, sizeof( double ) );
+Sift.c (src):static int calc_grad_mag_ori( IplImage* img, int r, int c, double* mag,
+Sift.c (src):			      double* ori )
+Sift.c (src):  double dx, dy;
+Sift.c (src):static void smooth_ori_hist( double* hist, int n )
+Sift.c (src):  double prev, tmp, h0 = hist[0];
+Sift.c (src):static double dominant_ori( double* hist, int n )
+Sift.c (src):  double omax;
+Sift.c (src):static void add_good_ori_features( CvSeq* features, double* hist, int n,
+Sift.c (src):				   double mag_thr, struct feature* feat )
+Sift.c (src):  double bin, PI2 = CV_PI * 2.0;
+Sift.c (src):  double*** hist;
+Sift.c (src):static double*** descr_hist( IplImage* img, int r, int c, double ori,
+Sift.c (src):			     double scl, int d, int n )
+Sift.c (src):  double*** hist;
+Sift.c (src):  double cos_t, sin_t, hist_width, exp_denom, r_rot, c_rot, grad_mag,
+Sift.c (src):  hist = calloc( d, sizeof( double** ) );
+Sift.c (src):      hist[i] = calloc( d, sizeof( double* ) );
+Sift.c (src):	hist[i][j] = calloc( n, sizeof( double ) );
+Sift.c (src):static void interp_hist_entry( double*** hist, double rbin, double cbin,
+Sift.c (src):			       double obin, double mag, int d, int n )
+Sift.c (src):  double d_r, d_c, d_o, v_r, v_c, v_o;
+Sift.c (src):  double** row, * h;
+Sift.c (src):static void hist_to_descr( double*** hist, int d, int n, struct feature* feat )
+Sift.c (src):  double cur, len_inv, len_sq = 0.0;
+Sift.c (src):static void release_descr_hist( double**** hist, int d )
+Sift.h (include):  double subintvl;
+Sift.h (include):  double scl_octv;
+Sift.h (include):/** double image size before pyramid construction? */
+Sift.h (include):			   double sigma, double contr_thr, int curv_thr,
+Siftfeat.c (src):double sigma = SIFT_SIGMA;
+Siftfeat.c (src):double contr_thr = SIFT_CONTR_THR;
+Siftfeat.c (src):	  // read double_image
+Sift_8h.html (docs\html):<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">double image size before pyramid construction? <br></td></tr>
+Sift_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="sift_8h.html#2fa4531923bf71c51c7b27c4728a18d7">_sift_features</a> (IplImage *img, struct <a class="el" href="structfeature.html">feature</a> **feat, int intvls, double sigma, double contr_thr, int curv_thr, int img_dbl, int descr_width, int descr_hist_bins)</td></tr>
+Sift_8h.html (docs\html):<a class="anchor" name="2fa4531923bf71c51c7b27c4728a18d7"></a><!-- doxytag: member="sift.h::_sift_features" ref="2fa4531923bf71c51c7b27c4728a18d7" args="(IplImage *img, struct feature **feat, int intvls, double sigma, double contr_thr, int curv_thr, int img_dbl, int descr_width, int descr_hist_bins)" -->
+Sift_8h.html (docs\html):          <td class="paramtype">double&nbsp;</td>
+Sift_8h.html (docs\html):          <td class="paramtype">double&nbsp;</td>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#6c37aa82b7edba97eeae8c834c54ded6">x</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#cbd9dfe1d7175facbb9f17022ec4a5ba">y</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#09eba0c718de68fc437f2eeed317e60f">a</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#d1d3a8e89bd2642a39d2d9e994c3965b">b</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#21c3f3a444e4d8f3e10d22c98033e350">c</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#b63f9a0ca29fb9e8ebe1e9a299b24c97">scl</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#1e0095a4a54e538cfbc7de7e57a37701">ori</a></td></tr>
+Structfeature.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfeature.html#b4311720632796c770fc3d2a34e4c03a">descr</a> [FEATURE_MAX_D]</td></tr>
+Structkd__node.html (docs\html):double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkd__node.html#f81bc9c8c1475b4cd550304710f34986">kv</a></td></tr>
+Utils.c (src):  Doubles the size of an array with error checking
+Utils.c (src):  @param array pointer to an array whose size is to be doubled
+Utils.c (src):int array_double( void** array, int n, int size )
+Utils.c (src):      fprintf( stderr, "Warning: unable to allocate memory in array_double(),"
+Utils.c (src):double dist_sq_2D( CvPoint2D64f p1, CvPoint2D64f p2 )
+Utils.c (src):  double x_diff = p1.x - p2.x;
+Utils.c (src):  double y_diff = p1.y - p2.y;
+Utils.c (src):  double img_aspect, scr_aspect, scale;
+Utils.c (src):      img_aspect = (double)(img->width) / img->height;
+Utils.c (src):      scr_aspect = (double)(scr_width) / scr_height;
+Utils.h (include):static inline double pixval64f( IplImage* img, int r, int c )
+Utils.h (include):  return (double)( ( (double*)(img->imageData + img->widthStep*r) )[c] );
+Utils.h (include):static inline void setpix64f( IplImage* img, int r, int c, double val )
+Utils.h (include):  ( (double*)(img->imageData + img->widthStep*r) )[c] = val;
+Utils.h (include):   Doubles the size of an array with error checking
+Utils.h (include):   @param array pointer to an array whose size is to be doubled
+Utils.h (include):extern int array_double( void** array, int n, int size );
+Utils.h (include):extern double dist_sq_2D( CvPoint2D64f p1, CvPoint2D64f p2 );
+Utils_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">static double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#b0292319ae84b9ccc6a4acd68dd3ae9f">pixval64f</a> (IplImage *img, int r, int c)</td></tr>
+Utils_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">static void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#1c858881d45703bdf7ab008f7ec61203">setpix64f</a> (IplImage *img, int r, int c, double val)</td></tr>
+Utils_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#68c4dbfd103246f80075a6523a00a14e">array_double</a> (void **array, int n, int size)</td></tr>
+Utils_8h.html (docs\html):<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Doubles the size of an array with error checking.  <a href="#68c4dbfd103246f80075a6523a00a14e"></a><br></td></tr>
+Utils_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#3ad1a19568fd7f596f8b21818f08ea50">dist_sq_2D</a> (CvPoint2D64f p1, CvPoint2D64f p2)</td></tr>
+Utils_8h.html (docs\html):          <td class="memname">static double pixval64f           </td>
+Utils_8h.html (docs\html):<a class="anchor" name="1c858881d45703bdf7ab008f7ec61203"></a><!-- doxytag: member="utils.h::setpix64f" ref="1c858881d45703bdf7ab008f7ec61203" args="(IplImage *img, int r, int c, double val)" -->
+Utils_8h.html (docs\html):          <td class="paramtype">double&nbsp;</td>
+Utils_8h.html (docs\html):<a class="anchor" name="68c4dbfd103246f80075a6523a00a14e"></a><!-- doxytag: member="utils.h::array_double" ref="68c4dbfd103246f80075a6523a00a14e" args="(void **array, int n, int size)" -->
+Utils_8h.html (docs\html):          <td class="memname">int array_double           </td>
+Utils_8h.html (docs\html):Doubles the size of an array with error checking. 
+Utils_8h.html (docs\html):    <tr><td valign="top"></td><td valign="top"><em>array</em>&nbsp;</td><td>pointer to an array whose size is to be doubled </td></tr>
+Utils_8h.html (docs\html):          <td class="memname">double dist_sq_2D           </td>
+Xform.c (src):static int calc_min_inliers( int, int, double, double );
+Xform.c (src):static inline double log_factorial( int );
+Xform.c (src):		    double, struct feature*** );
+Xform.c (src):		     ransac_xform_fn xform_fn, int m, double p_badxform,
+Xform.c (src):		     ransac_err_fn err_fn, double err_tol,
+Xform.c (src):  double p, in_frac = RANSAC_INLIER_FRAC_EST;
+Xform.c (src):	  in_frac = (double)in_max / nm;
+Xform.c (src):  double _h[9];
+Xform.c (src):  double x[9];
+Xform.c (src):double homog_xfer_err( CvPoint2D64f pt, CvPoint2D64f mpt, CvMat* H )
+Xform.c (src):  double xy[3] = { pt.x, pt.y, 1.0 }, uv[3] = { 0 };
+Xform.c (src):static int calc_min_inliers( int n, int m, double p_badsupp, double p_badxform )
+Xform.c (src):  double pi, sum;
+Xform.c (src):static inline double log_factorial( int n )
+Xform.c (src):  double f = 0;
+Xform.c (src):			   CvMat* M, ransac_err_fn err_fn, double err_tol,
+Xform.c (src):  double err;
+Xform.h (include):typedef double (*ransac_err_fn)( CvPoint2D64f pt, CvPoint2D64f mpt, CvMat* T );
+Xform.h (include):			    double p_badxform, ransac_err_fn err_fn,
+Xform.h (include):			    double err_tol, struct feature*** inliers,
+Xform.h (include):extern double homog_xfer_err( CvPoint2D64f pt, CvPoint2D64f mpt, CvMat* H );
+Xform_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef double(*&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="xform_8h.html#17379b48d9702adc8b27abe35be6c241">ransac_err_fn</a> )(CvPoint2D64f pt, CvPoint2D64f mpt, CvMat *T)</td></tr>
+Xform_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">CvMat *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="xform_8h.html#fda3aa2f1b87efecacc1c67d5e7424c2">ransac_xform</a> (struct <a class="el" href="structfeature.html">feature</a> *features, int n, int mtype, <a class="el" href="xform_8h.html#9bf3bdeb6ee08649f70247ec86aa4867">ransac_xform_fn</a> xform_fn, int m, double p_badxform, <a class="el" href="xform_8h.html#17379b48d9702adc8b27abe35be6c241">ransac_err_fn</a> err_fn, double err_tol, struct <a class="el" href="structfeature.html">feature</a> ***inliers, int *n_in)</td></tr>
+Xform_8h.html (docs\html):<tr><td class="memItemLeft" nowrap align="right" valign="top">double&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="xform_8h.html#323525d6ce2d21bc668267d5734737cd">homog_xfer_err</a> (CvPoint2D64f pt, CvPoint2D64f mpt, CvMat *H)</td></tr>
+Xform_8h.html (docs\html):          <td class="memname">typedef double(* <a class="el" href="xform_8h.html#17379b48d9702adc8b27abe35be6c241">ransac_err_fn</a>)(CvPoint2D64f pt, CvPoint2D64f mpt, CvMat *T)          </td>
+Xform_8h.html (docs\html):<a class="anchor" name="fda3aa2f1b87efecacc1c67d5e7424c2"></a><!-- doxytag: member="xform.h::ransac_xform" ref="fda3aa2f1b87efecacc1c67d5e7424c2" args="(struct feature *features, int n, int mtype, ransac_xform_fn xform_fn, int m, double p_badxform, ransac_err_fn err_fn, double err_tol, struct feature ***inliers, int *n_in)" -->
+Xform_8h.html (docs\html):          <td class="paramtype">double&nbsp;</td>
+Xform_8h.html (docs\html):          <td class="paramtype">double&nbsp;</td>
+Xform_8h.html (docs\html):          <td class="memname">double homog_xfer_err           </td>

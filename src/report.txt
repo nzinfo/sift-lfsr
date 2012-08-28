@@ -1,0 +1,1884 @@
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` -c imgfeatures.c -o imgfeatures.o
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                             ^
+
+imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                      ^
+
+imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                                         ^
+
+imgfeatures.c(376): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                                             ^
+
+imgfeatures.c(376): remark #981: operands are evaluated in unspecified order
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                                 ^
+
+imgfeatures.c(376): remark #981: operands are evaluated in unspecified order
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+    ^
+
+imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                             ^
+
+imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                      ^
+
+imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                                         ^
+
+imgfeatures.c(378): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                                             ^
+
+imgfeatures.c(378): remark #981: operands are evaluated in unspecified order
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+                                                 ^
+
+imgfeatures.c(378): remark #981: operands are evaluated in unspecified order
+    cvEllipse( img, cvPoint( feat->x, feat->y ), cvSize( l2, l1 ), alpha,
+    ^
+
+imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x+2, feat->y ), cvPoint( feat->x-2, feat->y ),
+                          ^
+
+imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x+2, feat->y ), cvPoint( feat->x-2, feat->y ),
+                                     ^
+
+imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x+2, feat->y ), cvPoint( feat->x-2, feat->y ),
+                                                         ^
+
+imgfeatures.c(380): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x+2, feat->y ), cvPoint( feat->x-2, feat->y ),
+                                                                    ^
+
+imgfeatures.c(380): remark #981: operands are evaluated in unspecified order
+    cvLine( img, cvPoint( feat->x+2, feat->y ), cvPoint( feat->x-2, feat->y ),
+                                                ^
+
+imgfeatures.c(380): remark #981: operands are evaluated in unspecified order
+    cvLine( img, cvPoint( feat->x+2, feat->y ), cvPoint( feat->x-2, feat->y ),
+    ^
+
+imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x, feat->y+2 ), cvPoint( feat->x, feat->y-2 ),
+                          ^
+
+imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x, feat->y+2 ), cvPoint( feat->x, feat->y-2 ),
+                                   ^
+
+imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x, feat->y+2 ), cvPoint( feat->x, feat->y-2 ),
+                                                         ^
+
+imgfeatures.c(382): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    cvLine( img, cvPoint( feat->x, feat->y+2 ), cvPoint( feat->x, feat->y-2 ),
+                                                                  ^
+
+imgfeatures.c(382): remark #981: operands are evaluated in unspecified order
+    cvLine( img, cvPoint( feat->x, feat->y+2 ), cvPoint( feat->x, feat->y-2 ),
+                                                ^
+
+imgfeatures.c(382): remark #981: operands are evaluated in unspecified order
+    cvLine( img, cvPoint( feat->x, feat->y+2 ), cvPoint( feat->x, feat->y-2 ),
+    ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(639): remark #177: function "cvMat" was declared but never referenced
+  CV_INLINE CvMat cvMat( int rows, int cols, int type, void* data CV_DEFAULT(NULL))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(687): remark #177: function "cvmSet" was declared but never referenced
+  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+imgfeatures.c(194): (col. 1) remark: routine skipped: no vectorization candidates.
+imgfeatures.c(400): (col. 1) remark: routine skipped: no vectorization candidates.
+imgfeatures.c(95): (col. 11) remark: loop was not vectorized: not inner loop.
+imgfeatures.c(95): (col. 11) remark: loop was not vectorized: existence of vector dependence.
+imgfeatures.c(98): (col. 11) remark: loop was not vectorized: not inner loop.
+imgfeatures.c(98): (col. 11) remark: loop was not vectorized: existence of vector dependence.
+imgfeatures.c(134): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(134): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(134): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(134): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(137): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(137): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(137): (col. 7) remark: BLOCK WAS VECTORIZED.
+imgfeatures.c(134): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+imgfeatures.c(137): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+imgfeatures.c(169): (col. 3) remark: LOOP WAS VECTORIZED.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` -c utils.c -o utils.o
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+utils.c(65): remark #981: operands are evaluated in unspecified order
+    new_file = calloc( strlen( file ) + strlen( extn ) + 2,  sizeof( char ) );
+                                      ^
+
+utils.c(90): remark #981: operands are evaluated in unspecified order
+    int n = strlen(path) + strlen(file) + 2;
+                         ^
+
+utils.c(301): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+        small = cvCreateImage( cvSize( img->width * scale, img->height * scale ),
+                                       ^
+
+utils.c(301): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+        small = cvCreateImage( cvSize( img->width * scale, img->height * scale ),
+                                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+utils.c(169): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+utils.c(171): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+utils.c(173): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+utils.c(335): (col. 1) remark: routine skipped: no vectorization candidates.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` -c sift.c -o sift.o
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+sift.c(133): remark #981: operands are evaluated in unspecified order
+    octvs = log( MIN( init_img->width, init_img->height ) ) / log(2) - 2;
+                                                            ^
+
+sift.c(133): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    octvs = log( MIN( init_img->width, init_img->height ) ) / log(2) - 2;
+          ^
+
+sift.c(567): remark #981: operands are evaluated in unspecified order
+    dx = ( pixval32f( dog_pyr[octv][intvl], r, c+1 ) -
+                                                     ^
+
+sift.c(569): remark #981: operands are evaluated in unspecified order
+    dy = ( pixval32f( dog_pyr[octv][intvl], r+1, c ) -
+                                                     ^
+
+sift.c(571): remark #981: operands are evaluated in unspecified order
+    ds = ( pixval32f( dog_pyr[octv][intvl+1], r, c ) -
+                                                     ^
+
+sift.c(606): remark #981: operands are evaluated in unspecified order
+    dxx = ( pixval32f( dog_pyr[octv][intvl], r, c+1 ) + 
+                                                      ^
+
+sift.c(608): remark #981: operands are evaluated in unspecified order
+    dyy = ( pixval32f( dog_pyr[octv][intvl], r+1, c ) +
+                                                      ^
+
+sift.c(610): remark #981: operands are evaluated in unspecified order
+    dss = ( pixval32f( dog_pyr[octv][intvl+1], r, c ) +
+                                                      ^
+
+sift.c(612): remark #981: operands are evaluated in unspecified order
+    dxy = ( pixval32f( dog_pyr[octv][intvl], r+1, c+1 ) -
+                                                        ^
+
+sift.c(613): remark #981: operands are evaluated in unspecified order
+  	  pixval32f( dog_pyr[octv][intvl], r+1, c-1 ) -
+  	                                              ^
+
+sift.c(614): remark #981: operands are evaluated in unspecified order
+  	  pixval32f( dog_pyr[octv][intvl], r-1, c+1 ) +
+  	                                              ^
+
+sift.c(616): remark #981: operands are evaluated in unspecified order
+    dxs = ( pixval32f( dog_pyr[octv][intvl+1], r, c+1 ) -
+                                                        ^
+
+sift.c(617): remark #981: operands are evaluated in unspecified order
+  	  pixval32f( dog_pyr[octv][intvl+1], r, c-1 ) -
+  	                                              ^
+
+sift.c(618): remark #981: operands are evaluated in unspecified order
+  	  pixval32f( dog_pyr[octv][intvl-1], r, c+1 ) +
+  	                                              ^
+
+sift.c(620): remark #981: operands are evaluated in unspecified order
+    dys = ( pixval32f( dog_pyr[octv][intvl+1], r+1, c ) -
+                                                        ^
+
+sift.c(621): remark #981: operands are evaluated in unspecified order
+  	  pixval32f( dog_pyr[octv][intvl+1], r-1, c ) -
+  	                                              ^
+
+sift.c(622): remark #981: operands are evaluated in unspecified order
+  	  pixval32f( dog_pyr[octv][intvl-1], r+1, c ) +
+  	                                              ^
+
+sift.c(714): remark #981: operands are evaluated in unspecified order
+    dxx = pixval32f( dog_img, r, c+1 ) + pixval32f( dog_img, r, c-1 ) - 2 * d;
+                                       ^
+
+sift.c(715): remark #981: operands are evaluated in unspecified order
+    dyy = pixval32f( dog_img, r+1, c ) + pixval32f( dog_img, r-1, c ) - 2 * d;
+                                       ^
+
+sift.c(716): remark #981: operands are evaluated in unspecified order
+    dxy = ( pixval32f(dog_img, r+1, c+1) - pixval32f(dog_img, r+1, c-1) -
+                                         ^
+
+sift.c(716): remark #981: operands are evaluated in unspecified order
+    dxy = ( pixval32f(dog_img, r+1, c+1) - pixval32f(dog_img, r+1, c-1) -
+                                                                        ^
+
+sift.c(717): remark #981: operands are evaluated in unspecified order
+  	  pixval32f(dog_img, r-1, c+1) + pixval32f(dog_img, r-1, c-1) ) / 4.0;
+  	                               ^
+
+sift.c(878): remark #981: operands are evaluated in unspecified order
+        dx = pixval32f( img, r, c+1 ) - pixval32f( img, r, c-1 );
+                                      ^
+
+sift.c(879): remark #981: operands are evaluated in unspecified order
+        dy = pixval32f( img, r-1, c ) - pixval32f( img, r+1, c );
+                                      ^
+
+sift.c(925): remark #593: variable "maxbin" was set but never used
+    int maxbin, i;
+        ^
+
+sift.c(1071): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+    radius = hist_width * sqrt(2) * ( d + 1.0 ) * 0.5 + 0.5;
+           ^
+
+sift.c(1192): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+        int_val = SIFT_INT_DESCR_FCTR * feat->descr[i];
+                ^
+
+sift.c(1232): remark #869: parameter "param" was never referenced
+  static int feature_cmp( void* feat1, void* feat2, void* param )
+                                                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(935): remark #177: function "cvPoint" was declared but never referenced
+  CV_INLINE  CvPoint  cvPoint( int x, int y )
+                      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+sift.c(135): (col. 13) remark: loop was not vectorized: statement cannot be vectorized.
+sift.c(144): (col. 3) remark: loop was not vectorized: not inner loop.
+sift.c(144): (col. 3) remark: loop was not vectorized: not inner loop.
+sift.c(144): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+sift.c(144): (col. 3) remark: LOOP WAS VECTORIZED.
+sift.c(144): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+sift.c(144): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+sift.c(144): (col. 3) remark: LOOP WAS VECTORIZED.
+sift.c(144): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+sift.c(144): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+sift.c(144): (col. 3) remark: loop was not vectorized: not inner loop.
+sift.c(144): (col. 3) remark: loop was not vectorized: statement cannot be vectorized.
+sift.c(151): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+sift.c(135): (col. 13) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(135): (col. 13) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(140): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(142): (col. 5) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(144): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(159): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(159): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(160): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(160): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(1059): (col. 3) remark: loop was not vectorized: not inner loop.
+sift.c(1062): (col. 7) remark: loop was not vectorized: existence of vector dependence.
+sift.c(1096): (col. 8) remark: loop was not vectorized: not inner loop.
+sift.c(1096): (col. 8) remark: loop was not vectorized: existence of vector dependence.
+sift.c(1072): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(1073): (col. 5) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(1089): (col. 8) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(1091): (col. 8) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(1096): (col. 8) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(249): (col. 20) remark: loop was not vectorized: statement cannot be vectorized.
+sift.c(258): (col. 3) remark: LOOP WAS VECTORIZED.
+sift.c(265): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(266): (col. 5) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(359): (col. 1) remark: routine skipped: no vectorization candidates.
+sift.c(459): (col. 1) remark: routine skipped: no vectorization candidates.
+sift.c(805): (col. 14) remark: loop was not vectorized: existence of vector dependence.
+sift.c(809): (col. 7) remark: loop was not vectorized: not inner loop.
+sift.c(810): (col. 2) remark: loop was not vectorized: existence of vector dependence.
+sift.c(811): (col. 14) remark: loop was not vectorized: existence of vector dependence.
+sift.c(800): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(805): (col. 14) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+sift.c(812): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` -c kdtree.c -o kdtree.o
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+kdtree.c(461): remark #1572: floating-point equality and inequality comparisons are unreliable
+  	if( array[i] == pivot )
+  	                ^
+
+kdtree.c(494): remark #1572: floating-point equality and inequality comparisons are unreliable
+  	if( features[j].descr[ki] == kv )
+  	                             ^
+
+kdtree.c(559): remark #2259: non-pointer conversion from "double" to "int" may lose significant bits
+        if( minpq_insert( min_pq, unexpl, ABS( kv - feat->descr[ki] ) ) )
+                                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(639): remark #177: function "cvMat" was declared but never referenced
+  CV_INLINE CvMat cvMat( int rows, int cols, int type, void* data CV_DEFAULT(NULL))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(687): remark #177: function "cvmSet" was declared but never referenced
+  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(935): remark #177: function "cvPoint" was declared but never referenced
+  CV_INLINE  CvPoint  cvPoint( int x, int y )
+                      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1051): remark #177: function "cvSize" was declared but never referenced
+  CV_INLINE  CvSize  cvSize( int width, int height )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+kdtree.c(72): (col. 3) remark: loop was not vectorized: not inner loop.
+kdtree.c(72): (col. 3) remark: loop was not vectorized: subscript too complex.
+kdtree.c(72): (col. 3) remark: loop was not vectorized: subscript too complex.
+kdtree.c(72): (col. 3) remark: loop was not vectorized: subscript too complex.
+kdtree.c(72): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+kdtree.c(280): (col. 3) remark: loop was not vectorized: not inner loop.
+kdtree.c(280): (col. 3) remark: loop was not vectorized: subscript too complex.
+kdtree.c(280): (col. 3) remark: loop was not vectorized: subscript too complex.
+kdtree.c(280): (col. 3) remark: loop was not vectorized: subscript too complex.
+kdtree.c(281): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+kdtree.c(383): (col. 3) remark: loop was not vectorized: not inner loop.
+kdtree.c(385): (col. 7) remark: loop was not vectorized: not inner loop.
+kdtree.c(385): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(388): (col. 3) remark: loop was not vectorized: not inner loop.
+kdtree.c(388): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(392): (col. 3) remark: LOOP WAS VECTORIZED.
+kdtree.c(400): (col. 7) remark: loop was not vectorized: existence of vector dependence.
+kdtree.c(404): (col. 12) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(201): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(143): (col. 9) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(160): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+kdtree.c(149): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+kdtree.c(112): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(122): (col. 14) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+kdtree.c(130): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` -c minpq.c -o minpq.o
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(639): remark #177: function "cvMat" was declared but never referenced
+  CV_INLINE CvMat cvMat( int rows, int cols, int type, void* data CV_DEFAULT(NULL))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(687): remark #177: function "cvmSet" was declared but never referenced
+  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(935): remark #177: function "cvPoint" was declared but never referenced
+  CV_INLINE  CvPoint  cvPoint( int x, int y )
+                      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1051): remark #177: function "cvSize" was declared but never referenced
+  CV_INLINE  CvSize  cvSize( int width, int height )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+minpq.c(73): (col. 1) remark: routine skipped: no vectorization candidates.
+minpq.c(207): (col. 1) remark: routine skipped: no vectorization candidates.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` -c xform.c -o xform.o
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+xform.c(120): remark #981: operands are evaluated in unspecified order
+        p = pow( 1.0 - pow( in_frac, m ), ++k );
+            ^
+
+xform.c(422): remark #981: operands are evaluated in unspecified order
+  	  pi = (i-m) * log( p_badsupp ) + (n-i+m) * log( 1.0 - p_badsupp ) +
+  	                                ^
+
+xform.c(422): remark #981: operands are evaluated in unspecified order
+  	  pi = (i-m) * log( p_badsupp ) + (n-i+m) * log( 1.0 - p_badsupp ) +
+  	                                                                   ^
+
+xform.c(423): remark #981: operands are evaluated in unspecified order
+  	    log_factorial( n - m ) - log_factorial( i - m ) -
+  	                           ^
+
+xform.c(423): remark #981: operands are evaluated in unspecified order
+  	    log_factorial( n - m ) - log_factorial( i - m ) -
+  	                                                    ^
+
+xform.c(86): (col. 8) remark: loop was not vectorized: existence of vector dependence.
+xform.c(86): (col. 8) remark: loop was not vectorized: existence of vector dependence.
+xform.c(86): (col. 8) remark: loop was not vectorized: existence of vector dependence.
+xform.c(86): (col. 8) remark: loop was not vectorized: existence of vector dependence.
+xform.c(96): (col. 12) remark: loop was not vectorized: not inner loop.
+xform.c(96): (col. 12) remark: LOOP WAS VECTORIZED.
+xform.c(96): (col. 12) remark: LOOP WAS VECTORIZED.
+xform.c(96): (col. 12) remark: LOOP WAS VECTORIZED.
+xform.c(100): (col. 16) remark: loop was not vectorized: existence of vector dependence.
+xform.c(152): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+xform.c(96): (col. 12) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(98): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(100): (col. 16) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(101): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(101): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(105): (col. 12) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(105): (col. 12) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(126): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(126): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(128): (col. 12) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(128): (col. 12) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(131): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(131): (col. 7) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+xform.c(178): (col. 1) remark: routine skipped: no vectorization candidates.
+xform.c(236): (col. 1) remark: routine skipped: no vectorization candidates.
+ar rc ../lib/libfeat.a imgfeatures.o utils.o sift.o kdtree.o minpq.o xform.o
+ranlib  ../lib/libfeat.a
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` siftfeat.c -o ../bin/siftfeat -L../lib -lfeat `pkg-config --libs opencv gtk-engines-2` -lpapi
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+siftfeat.c(114): remark #174: expression has no effect
+    for(i;i<49;i++){
+        ^
+
+siftfeat.c(160): warning #181: argument is incompatible with corresponding format string conversion
+    printf("SIFT took: %lld ms\n", bd_tick_d.tv_sec*1000 + bd_tick_d.tv_usec/1000);
+                                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(639): remark #177: function "cvMat" was declared but never referenced
+  CV_INLINE CvMat cvMat( int rows, int cols, int type, void* data CV_DEFAULT(NULL))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(687): remark #177: function "cvmSet" was declared but never referenced
+  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(935): remark #177: function "cvPoint" was declared but never referenced
+  CV_INLINE  CvPoint  cvPoint( int x, int y )
+                      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1051): remark #177: function "cvSize" was declared but never referenced
+  CV_INLINE  CvSize  cvSize( int width, int height )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+siftfeat.c(70): (col. 1) remark: routine skipped: no vectorization candidates.
+siftfeat.c(209): (col. 1) remark: routine skipped: no vectorization candidates.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` match.c -o ../bin/match -L../lib -lfeat `pkg-config --libs opencv gtk-engines-2`
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+match.c(65): remark #981: operands are evaluated in unspecified order
+  	      pt1 = cvPoint( cvRound( feat->x ), cvRound( feat->y ) );
+  	                                         ^
+
+match.c(65): remark #981: operands are evaluated in unspecified order
+  	      pt1 = cvPoint( cvRound( feat->x ), cvRound( feat->y ) );
+  	            ^
+
+match.c(66): remark #981: operands are evaluated in unspecified order
+  	      pt2 = cvPoint( cvRound( nbrs[0]->x ), cvRound( nbrs[0]->y ) );
+  	                                            ^
+
+match.c(66): remark #981: operands are evaluated in unspecified order
+  	      pt2 = cvPoint( cvRound( nbrs[0]->x ), cvRound( nbrs[0]->y ) );
+  	            ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1051): remark #177: function "cvSize" was declared but never referenced
+  CV_INLINE  CvSize  cvSize( int width, int height )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+match.c(68): (col. 35) remark: BLOCK WAS VECTORIZED.
+match.c(55): (col. 3) remark: loop was not vectorized: nonstandard loop is not a vectorization candidate.
+icc -O2 -Wall -D LINUX -g -vec-report2 -xSSE2 -I../include `pkg-config --cflags opencv gtk-engines-2` dspfeat.c -o ../bin/dspfeat -L../lib -lfeat `pkg-config --libs opencv gtk-engines-2`
+/home/opencv2/usr/local/include/opencv/cxtypes.h(46): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if !defined _CRT_SECURE_NO_DEPRECATE && _MSC_VER > 1300
+                                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(50): remark #193: zero used for undefined preprocessing identifier "_MSC_VER"
+  #if _MSC_VER >= 1500
+      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(167): remark #344: typedef name has already been declared (with same type)
+  typedef unsigned short ushort;
+                         ^
+
+../include/imgfeatures.h(18): remark #271: trailing comma is nonstandard
+      FEATURE_LOWE,
+                  ^
+
+../include/imgfeatures.h(26): remark #271: trailing comma is nonstandard
+      FEATURE_MDL_MATCH,
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(248): remark #177: function "cvFloor" was declared but never referenced
+  CV_INLINE  int  cvFloor( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(266): remark #177: function "cvCeil" was declared but never referenced
+  CV_INLINE  int  cvCeil( double value )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(286): remark #177: function "cvIsNaN" was declared but never referenced
+  CV_INLINE int cvIsNaN( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(301): remark #177: function "cvIsInf" was declared but never referenced
+  CV_INLINE int cvIsInf( double value )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(320): remark #177: function "cvRNG" was declared but never referenced
+  CV_INLINE CvRNG cvRNG( int64 seed CV_DEFAULT(-1))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(336): remark #177: function "cvRandReal" was declared but never referenced
+  CV_INLINE double cvRandReal( CvRNG* rng )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(639): remark #177: function "cvMat" was declared but never referenced
+  CV_INLINE CvMat cvMat( int rows, int cols, int type, void* data CV_DEFAULT(NULL))
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(669): remark #177: function "cvmGet" was declared but never referenced
+  CV_INLINE  double  cvmGet( const CvMat* mat, int row, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(687): remark #177: function "cvmSet" was declared but never referenced
+  CV_INLINE  void  cvmSet( CvMat* mat, int row, int col, double value )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(704): remark #177: function "cvIplDepth" was declared but never referenced
+  CV_INLINE int cvIplDepth( int type )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(879): remark #177: function "cvRectToROI" was declared but never referenced
+  CV_INLINE  IplROI  cvRectToROI( CvRect rect, int coi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(892): remark #177: function "cvROIToRect" was declared but never referenced
+  CV_INLINE  CvRect  cvROIToRect( IplROI roi )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(913): remark #177: function "cvTermCriteria" was declared but never referenced
+  CV_INLINE  CvTermCriteria  cvTermCriteria( int type, int max_iter, double epsilon )
+                             ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(935): remark #177: function "cvPoint" was declared but never referenced
+  CV_INLINE  CvPoint  cvPoint( int x, int y )
+                      ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(965): remark #177: function "cvPointTo32f" was declared but never referenced
+  CV_INLINE  CvPoint2D32f  cvPointTo32f( CvPoint point )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(990): remark #177: function "cvPoint3D32f" was declared but never referenced
+  CV_INLINE  CvPoint3D32f  cvPoint3D32f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1010): remark #177: function "cvPoint2D64f" was declared but never referenced
+  CV_INLINE  CvPoint2D64f  cvPoint2D64f( double x, double y )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1030): remark #177: function "cvPoint3D64f" was declared but never referenced
+  CV_INLINE  CvPoint3D64f  cvPoint3D64f( double x, double y, double z )
+                           ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1051): remark #177: function "cvSize" was declared but never referenced
+  CV_INLINE  CvSize  cvSize( int width, int height )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1069): remark #177: function "cvSize2D32f" was declared but never referenced
+  CV_INLINE  CvSize2D32f  cvSize2D32f( double width, double height )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1145): remark #177: function "cvRealScalar" was declared but never referenced
+  CV_INLINE  CvScalar  cvRealScalar( double val0 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1153): remark #177: function "cvScalarAll" was declared but never referenced
+  CV_INLINE  CvScalar  cvScalarAll( double val0123 )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxtypes.h(1664): remark #177: function "cvAttrList" was declared but never referenced
+  CV_INLINE CvAttrList cvAttrList( const char** attr CV_DEFAULT(NULL),
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(152): remark #177: function "cvDecRefData" was declared but never referenced
+  CV_INLINE  void  cvDecRefData( CvArr* arr )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(173): remark #177: function "cvIncRefData" was declared but never referenced
+  CV_INLINE  int  cvIncRefData( CvArr* arr )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(207): remark #177: function "cvGetRow" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetRow( const CvArr* arr, CvMat* submat, int row )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(218): remark #177: function "cvGetCol" was declared but never referenced
+  CV_INLINE  CvMat*  cvGetCol( const CvArr* arr, CvMat* submat, int col )
+                     ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(247): remark #177: function "cvReleaseMatND" was declared but never referenced
+  CV_INLINE  void  cvReleaseMatND( CvMatND** mat )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(270): remark #177: function "cvGetNextSparseNode" was declared but never referenced
+  CV_INLINE CvSparseNode* cvGetNextSparseNode( CvSparseMatIterator* mat_iterator )
+                          ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(520): remark #177: function "cvSubS" was declared but never referenced
+  CV_INLINE  void  cvSubS( const CvArr* src, CvScalar value, CvArr* dst,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1082): remark #177: function "cvCloneSeq" was declared but never referenced
+  CV_INLINE CvSeq* cvCloneSeq( const CvSeq* seq, CvMemStorage* storage CV_DEFAULT(NULL))
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1125): remark #177: function "cvSetNew" was declared but never referenced
+  CV_INLINE  CvSetElem* cvSetNew( CvSet* set_header )
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1140): remark #177: function "cvSetRemoveByPtr" was declared but never referenced
+  CV_INLINE  void cvSetRemoveByPtr( CvSet* set_header, void* elem )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1155): remark #177: function "cvGetSetElem" was declared but never referenced
+  CV_INLINE CvSetElem* cvGetSetElem( const CvSet* set_header, int index )
+                       ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1320): remark #177: function "cvEllipseBox" was declared but never referenced
+  CV_INLINE  void  cvEllipseBox( CvArr* img, CvBox2D box, CvScalar color,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1413): remark #177: function "cvFont" was declared but never referenced
+  CV_INLINE CvFont cvFont( double scale, int thickness CV_DEFAULT(1) )
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1670): remark #177: function "cvReadIntByName" was declared but never referenced
+  CV_INLINE int cvReadIntByName( const CvFileStorage* fs, const CvFileNode* map,
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1685): remark #177: function "cvReadRealByName" was declared but never referenced
+  CV_INLINE double cvReadRealByName( const CvFileStorage* fs, const CvFileNode* map,
+                   ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1699): remark #177: function "cvReadStringByName" was declared but never referenced
+  CV_INLINE const char* cvReadStringByName( const CvFileStorage* fs, const CvFileNode* map,
+                        ^
+
+/home/opencv2/usr/local/include/opencv/cxcore.h(1711): remark #177: function "cvReadByName" was declared but never referenced
+  CV_INLINE void* cvReadByName( CvFileStorage* fs, const CvFileNode* map,
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(221): remark #177: function "cvAlignPtr" was declared but never referenced
+  CV_INLINE void* cvAlignPtr( const void* ptr, int align CV_DEFAULT(32) )
+                  ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(227): remark #177: function "cvAlign" was declared but never referenced
+  CV_INLINE int cvAlign( int size, int align )
+                ^
+
+/home/opencv2/usr/local/include/opencv/cxmisc.h(233): remark #177: function "cvGetMatSize" was declared but never referenced
+  CV_INLINE  CvSize  cvGetMatSize( const CvMat* mat )
+                     ^
+
+dspfeat.c(36): (col. 1) remark: routine skipped: no vectorization candidates.
