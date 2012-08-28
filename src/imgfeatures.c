@@ -222,7 +222,7 @@ static int import_oxfd_features( char* filename, struct feature** features )
     }
   
 
-  f = calloc( n, sizeof(struct feature) );
+  f = (struct feature *)calloc( n, sizeof(struct feature) );
   for( i = 0; i < n; i++ )
     {
       /* read affine region parameters */
@@ -436,7 +436,7 @@ static int import_lowe_features( char* filename, struct feature** features )
       return -1;
     }
 
-  f = calloc( n, sizeof(struct feature) );
+  f = (struct feature *)calloc( n, sizeof(struct feature) );
   for( i = 0; i < n; i++ )
     {
       /* read affine region parameters */

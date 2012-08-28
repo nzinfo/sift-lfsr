@@ -150,8 +150,8 @@ int _sift_features( IplImage* img, struct feature** feat, int intvls,
   /* sort features by decreasing scale and move from CvSeq to array */
   cvSeqSort( features, (CvCmpFunc)feature_cmp, NULL );
   n = features->total;
-  *feat = calloc( n, sizeof(struct feature) );
-  *feat = cvCvtSeqToArray( features, *feat, CV_WHOLE_SEQ );
+  *feat = (struct feature *)calloc( n, sizeof(struct feature) );
+  *feat = (struct feature *)cvCvtSeqToArray( features, *feat, CV_WHOLE_SEQ );
   for( i = 0; i < n; i++ )
     {
       free( (*feat)[i].feature_data );
@@ -216,7 +216,7 @@ static IplImage* convert_to_gray32( IplImage* img )
   
   gray32 = cvCreateImage( cvGetSize(img), IPL_DEPTH_32F, 1 );
   if( img->nChannels == 1 )
-    gray8 = cvClone( img );
+    gray8 = (IplImage*)cvClone( img );
   else
     {
       gray8 = cvCreateImage( cvGetSize(img), IPL_DEPTH_8U, 1 );
@@ -249,9 +249,9 @@ static IplImage*** build_gauss_pyr( IplImage* base, int octvs,
   double sig[_intvls+3], sig_total, sig_prev, k;
   int i, o;
 
-  gauss_pyr = calloc( octvs, sizeof( IplImage** ) );
+  gauss_pyr = (IplImage***)calloc( octvs, sizeof( IplImage** ) );
   for( i = 0; i < octvs; i++ )
-    gauss_pyr[i] = calloc( intvls + 3, sizeof( IplImage *) );
+    gauss_pyr[i] = (IplImage **)calloc( intvls + 3, sizeof( IplImage *) );
 
   /*
     precompute Gaussian sigmas using the following formula:
@@ -327,9 +327,9 @@ static IplImage*** build_dog_pyr( IplImage*** gauss_pyr, int octvs, int intvls )
   IplImage*** dog_pyr;
   int i, o;
 
-  dog_pyr = calloc( octvs, sizeof( IplImage** ) );
+  dog_pyr = (IplImage***)calloc( octvs, sizeof( IplImage** ) );
   for( i = 0; i < octvs; i++ )
-    dog_pyr[i] = calloc( intvls + 2, sizeof(IplImage*) );
+    dog_pyr[i] = (IplImage **)calloc( intvls + 2, sizeof(IplImage*) );
 
   for( o = 0; o < octvs; o++ )
     for( i = 0; i < intvls + 2; i++ )
@@ -685,9 +685,9 @@ static struct feature* new_feature( void )
   struct feature* feat;
   struct detection_data* ddata;
 
-  feat = malloc( sizeof( struct feature ) );
+  feat = (struct feature *)malloc( sizeof( struct feature ) );
   memset( feat, 0, sizeof( struct feature ) );
-  ddata = malloc( sizeof( struct detection_data ) );
+  ddata = (struct detection_data *)malloc( sizeof( struct detection_data ) );
   memset( ddata, 0, sizeof( struct detection_data ) );
   feat->feature_data = ddata;
   feat->type = FEATURE_LOWE;
@@ -804,7 +804,7 @@ static void calc_feature_oris( CvSeq* features, IplImage*** gauss_pyr )
 
   for( i = 0; i < n; i++ )
     {
-      feat = malloc( sizeof( struct feature ) );
+      feat = (struct feature *)malloc( sizeof( struct feature ) );
       cvSeqPopFront( features, feat );
       ddata = feat_detection_data( feat );
       hist = ori_hist( gauss_pyr[ddata->octv][ddata->intvl],
@@ -844,7 +844,7 @@ static double* ori_hist( IplImage* img, int r, int c, int n, int rad,
   double mag, ori, w, exp_denom, PI2 = CV_PI * 2.0;
   int bin, i, j;
 
-  hist = calloc( n, sizeof( double ) );
+  hist = (double *)calloc( n, sizeof( double ) );
   exp_denom = 2.0 * sigma * sigma;
   for( i = -rad; i <= rad; i++ )
     for( j = -rad; j <= rad; j++ )
@@ -1060,12 +1060,12 @@ static double*** descr_hist( IplImage* img, int r, int c, double ori,
     grad_ori, w, rbin, cbin, obin, bins_per_rad, PI2 = 2.0 * CV_PI;
   int radius, i, j;
 
-  hist = calloc( d, sizeof( double** ) );
+  hist = (double ***)calloc( d, sizeof( double** ) );
   for( i = 0; i < d; i++ )
     {
-      hist[i] = calloc( d, sizeof( double* ) );
+      hist[i] = (double **)calloc( d, sizeof( double* ) );
       for( j = 0; j < d; j++ )
-	hist[i][j] = calloc( n, sizeof( double ) );
+	hist[i][j] = (double *)calloc( n, sizeof( double ) );
     }
   
   cos_t = cos( ori );

@@ -5,10 +5,12 @@
 
 #include <cxcore.h>
 #include <cv.h>
+#include <stdlib.h>
+
+using namespace std;
 
 #define PI 3.1415926536
-#define threshold = 0.6f
-
+#define threshold 0.6f
 
 //-------------------------------------------------------------------
 // Predefines
@@ -21,6 +23,7 @@ static void estimate(int w, int h, std::vector<struct feature> &features,
     std::vector<struct region> &estimates, float factor);
 static void estimate_block(struct region &reg, 
     std::vector<struct region> &estimates, float factor);
+static inline int fRound(float num) {return (int)(num + 0.5f);}
 // End of predefines
 //--------------------------------------------------------------------
 
@@ -52,7 +55,7 @@ static inline int border(std::vector<feature> &features, int w, int min_block_wi
 
         for (int j = 0; j < size; j++) {
 
-            int s = fRound((9.0f/1.2f) * features[j].scale / 3.0f);
+            int s = fRound((9.0f/1.2f) * features[j].scl / 3.0f);
 
             int x_min = (int) features[j].x - s;
             int x_max = (int) features[j].x + s;
@@ -281,7 +284,7 @@ static void estimate_block(struct region &reg,
             int x = fRound(reg.features[i].x);
             int y = fRound(reg.features[i].y);
             //int s = fRound(features[i].scale);
-            int s = fRound((9.0f/1.2f) * reg.features[i].scale / 3.0f);
+            int s = fRound((9.0f/1.2f) * reg.features[i].scl / 3.0f);
 
             for (int j = max(reg.left, x - s + 1); j <= min(reg.right, x + s - 1); j++) {
                 for (int k = max(reg.top, y - s + 1); k <= min(reg.bottom, y + s - 1); k++) {
@@ -531,7 +534,7 @@ static void estimate(int w, int h, std::vector<struct feature> &features,
             int x = fRound(features[i].x);
             int y = fRound(features[i].y);
             //int s = fRound(features[i].scale);
-            int s = fRound((9.0f/1.2f) * features[i].scale / 3.0f);
+            int s = fRound((9.0f/1.2f) * features[i].scl / 3.0f);
 
             for (int j = max(0, x - s + 1); j <= min(w - 1, x + s - 1); j++) {
                 for (int k = max(0, y - s + 1); k <= min(h - 1, y + s - 1); k++) {
@@ -678,12 +681,12 @@ static void estimate(int w, int h, std::vector<struct feature> &features,
 }
 
 CvSeq* lfsr(IplImage *img, CvSeq *seq, CvMemStorage *storage) {
-    int size = features->total;
-    struct feature *feat = calloc(size, sizeof(struct feature));
+    int size = seq->total;
+    struct feature *feat = (struct feature *)calloc(size, sizeof(struct feature));
     std::vector<struct feature> features;
     std::vector<struct region> estimates;
     std::vector<struct region> regions;
-    feat = cvCvtSeqToArray( features, feat, CV_WHOLE_SEQ );
+    feat = (struct feature *)cvCvtSeqToArray( seq, feat, CV_WHOLE_SEQ );
     for (int i = 0; i < size; i++) {
         features.push_back(feat[i]);
     }
@@ -691,7 +694,7 @@ CvSeq* lfsr(IplImage *img, CvSeq *seq, CvMemStorage *storage) {
     segment(img->width, img->height, features, regions);
 
     if (regions.size() == 0) {
-        estimate(img->width, img->height, features, estimates 1.0f);
+        estimate(img->width, img->height, features, estimates, 1.0f);
     } else {
         for (int i = 0; i < regions.size(); i++) {
             estimate_block(regions[i], estimates, 1.0f);

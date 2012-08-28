@@ -7,7 +7,7 @@ INC_DIR	= ./include
 LIB_DIR	= ./lib
 BIN	= siftfeat match dspfeat
 
-all: $(BIN) libfeat.a docs
+all: $(BIN) libfeat.a
 
 docs:
 	doxygen Doxyfile

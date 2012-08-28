@@ -62,7 +62,7 @@ char* replace_extension( const char* file, const char* extn )
 {
   char* new_file, * lastdot;
 
-  new_file = calloc( strlen( file ) + strlen( extn ) + 2,  sizeof( char ) );
+  new_file = (char *)calloc( strlen( file ) + strlen( extn ) + 2,  sizeof( char ) );
   strcpy( new_file, file );
   lastdot = strrchr( new_file, '.' );
   if( lastdot )
@@ -88,7 +88,7 @@ char* replace_extension( const char* file, const char* extn )
 char* prepend_path( const char* path, const char* file )
 {
   int n = strlen(path) + strlen(file) + 2;
-  char* pathname = calloc( n, sizeof(char) );
+  char* pathname = (char *)calloc( n, sizeof(char) );
 
   snprintf( pathname, n, "%s/%s", path, file );
 
@@ -104,7 +104,6 @@ char* prepend_path( const char* path, const char* file )
   @param pathname a (full) path name
   
   @return Returns the basename of \a pathname.
-*/
 char* basename( const char* pathname )
 {
   char* base, * last_slash;
@@ -123,6 +122,7 @@ char* basename( const char* pathname )
 
   return base;
 }
+*/
 
 
 

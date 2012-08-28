@@ -1,8 +1,10 @@
 #ifndef LFSR_H
 #define LFSR_H
 
-#include "cxcore.h"
 #include "imgfeatures.h"
+#include "cv.h"
+#include "cxcore.h"
+
 #include <vector>
 
 struct region {
@@ -11,9 +13,8 @@ struct region {
   int right;
   int bottom;
   std::vector<struct feature> features;
-}
+};
 
-void estimate(int w, int h, std::vector<struct feature> &features, 
-    std::vector<struct region> &estimates, float factor);
+CvSeq* lfsr(IplImage *img, CvSeq *seq, CvMemStorage *storage);
 
 #endif

@@ -1,12 +1,12 @@
-CC	= g++
-CFLAGS	+=-O2 -Wall -D LINUX -g -no-vec 
+CC = g++
+CFLAGS	+=-O2 -Wall -D LINUX -g
 BIN_DIR = ../bin
 INC_DIR	= ../include
 LIB_DIR	= ../lib
-INCL	= -I$(INC_DIR) `pkg-config --cflags opencv gtk-engines-2`
-LIBS	= -L$(LIB_DIR) -lfeat `pkg-config --libs opencv gtk-engines-2`
-OBJ	= imgfeatures.o utils.o sift.o kdtree.o minpq.o xform.o
-BIN     = siftfeat match dspfeat
+INCL	= -I$(INC_DIR) `pkg-config --cflags opencv gtk+-2.0`
+LIBS	= -L$(LIB_DIR) -lfeat `pkg-config --libs opencv gtk+-2.0`
+OBJ	= imgfeatures.o utils.o sift.o lfsr.o kdtree.o minpq.o xform.o
+BIN     = siftfeat # match dspfeat
 
 all: $(BIN) libfeat.a
 
@@ -25,6 +25,9 @@ dspfeat: libfeat.a dspfeat.c
 
 imgfeatures.o: imgfeatures.c $(INC_DIR)/imgfeatures.h
 	$(CC) $(CFLAGS) $(INCL) -c imgfeatures.c -o $@
+
+lfsr.o: lfsr.c $(INC_DIR)/lfsr.h
+	$(CC) $(CFLAGS) $(INCL) -c lfsr.c -o $@
 
 utils.o: utils.c $(INC_DIR)/utils.h
 	$(CC) $(CFLAGS) $(INCL) -c utils.c -o $@

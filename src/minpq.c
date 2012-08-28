@@ -50,8 +50,8 @@ struct min_pq* minpq_init()
 {
   struct min_pq* min_pq;
 
-  min_pq = malloc( sizeof( struct min_pq ) );
-  min_pq->pq_array = calloc( MINPQ_INIT_NALLOCD, sizeof( struct pq_node ) );
+  min_pq = (struct min_pq *)malloc( sizeof( struct min_pq ) );
+  min_pq->pq_array = (struct pq_node *)calloc( MINPQ_INIT_NALLOCD, sizeof( struct pq_node ) );
   min_pq->nallocd = MINPQ_INIT_NALLOCD;
   min_pq->n = 0;
 
